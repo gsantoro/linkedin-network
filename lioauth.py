@@ -14,7 +14,12 @@ http://developer.linkedin.com/documents/authentication
 import oauth2 as oauth
 import urlparse
 
-# contains OAUTH and other properties
+# Readme
+# -----------
+# private directory contains a file "liproperties.py"
+# with the following properties. Do not add this to git 
+# since these data are personal
+# 
 # CONSUMER_KEY = <your Api Key>
 # CONSUMER_SECRET = <your SecretKey>
 # OAUTH_USER_TOKEN = <your OAuth User token>
