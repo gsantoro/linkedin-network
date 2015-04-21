@@ -23,7 +23,7 @@ Run a local HTTP web server
 
 Generate the OAuth credentials
 
-	python linkedin-1-oauth.py
+	python lioauth.py
 
 Notes:
 1. **consumer_key** is what LinkedIn calls **Api Key**
@@ -35,7 +35,7 @@ Notes:
 ## 4. Query LinkedIn
 Using the OAuth you have in LinkedIn application or the ones you generated at step 3 query LinkedIn running the script
 
-	python linkedin-2-query.py
+	python liquery.py
 
 This will generate two files:
 
@@ -46,7 +46,7 @@ This will generate two files:
 ## 5. Clean results
 Run the script
 
-	python linkedin-3-cleaner.py
+	python liclean.py
 
 6. In order to remove lines with "..., private private" run this replace (all occurrance) in sublime with Regex enabled "^.*,private private$\n"
 7. Remove quotes from nodes and rels
